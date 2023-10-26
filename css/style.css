@@ -32,7 +32,7 @@ header {
 
 .header_li {
     color: var(--pink_seri);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -107,7 +107,7 @@ form {
 
 .nav_li {
     color: var(--pink_seri);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -145,7 +145,7 @@ aside {
 
 .aside_h4 {
     color: var(--ielow_seri);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -155,7 +155,7 @@ aside {
 .aside_li1 {
     margin-left: 8px;
     color: var(--vait_balota_grin);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -172,7 +172,7 @@ aside {
 .aside_li2 {
     width: 100%;
     color: var(--ielow_seri);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -227,7 +227,7 @@ aside {
 
 .prise_text1 {
     color: var(--balota_grin);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -244,7 +244,7 @@ aside {
 
 .prise_text2 {
     color: var(--pink_seri);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -269,7 +269,69 @@ aside {
     background-color: var(--pink_seri);
 }
 /* section2 */
+.section2{
+    padding: 20px 32px;
+}
 .section2_div_text{
     display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+.section2_h1{
+    color: #DFD9D9;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+.search_section3{
+    font-size: 32px;
+    display: flex;
+    column-gap: 16px;
+}
+.fa-angle-left{
+    color: var(--wite);
+}
+.fa-angle-right{
+    color: var(--pink_seri);
+}
+/* card */
+.section2_div_card{
+    display: flex;
+    column-gap: 40px;
+    margin-top: 32px;
+}
+.card_text{
+    margin: 8px 0 8px 0;
+    color: #DFD9D9;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.prise{
+    background-color: var(--pink_seri);
+    color: #1C5550;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8px;
+}
+.section2_button{
+    border: none;
+    background-color: var(--ielow_seri);
+    color: #DFD9D9;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 9px 8px;
 }
